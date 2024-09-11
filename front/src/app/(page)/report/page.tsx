@@ -112,6 +112,8 @@ const ReportPage: React.FC = () => {
             location={report.location}
             animalType={report.animalType}
             imageUrl={report.imageUrl}
+            species={""}
+            sex={""}
           />
         ))}
       </div>
